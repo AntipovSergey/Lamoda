@@ -61,5 +61,3 @@ document.addEventListener('keydown', (evt) => {
         cartModalClose();
     }
 })
-
-a
