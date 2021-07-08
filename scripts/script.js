@@ -141,12 +141,12 @@ try {
 
     window.addEventListener('hashchange', () => {
         hash = location.hash.substring(1);
-        getGoods(renderGoodsList, 'category', hash);
         chacgeTitle();
+        getGoods(renderGoodsList, 'category', hash);
     });
     
     chacgeTitle();
-    getGoods(renderGoodsList, hash);
+    getGoods(renderGoodsList, 'category', hash);
 
 } catch(err) {
     console.log(err);
